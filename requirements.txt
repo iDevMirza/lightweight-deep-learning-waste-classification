@@ -1,0 +1,40 @@
+# Core deep learning
+torch
+torchvision
+timm>=1.0.11
+
+# Numerical / data
+numpy
+pandas
+scipy
+
+# Machine learning & stats
+scikit-learn
+statsmodels
+
+# Visualization
+matplotlib
+seaborn
+
+# Image processing
+pillow==11.0.0
+opencv-python
+rembg
+
+# Model analysis / explainability
+grad-cam
+ptflops
+
+# Datasets
+kagglehub
+
+# ONNX inference
+onnxruntime
+
+# Notebook environment (needed if running outside Jupyter/Colab)
+ipython
+
+# NOTE: `google.colab` is imported in the notebook but is NOT installable
+# via pip. It is provided automatically inside Google Colab. If you run
+# this notebook outside Colab, guard or remove the `from google.colab ...`
+# cells (they handle webcam capture / file upload widgets).
