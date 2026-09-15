@@ -1,0 +1,83 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.conda/
+env.bak/
+venv.bak/
+
+# ---- Jupyter / IPython ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---- Environment / secrets ----
+.env
+*.env
+kaggle.json
+.kaggle/
+
+# ---- Datasets & downloaded data ----
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.csv
+*.parquet
+# kagglehub cache
+.cache/
+~/.cache/kagglehub/
+
+# ---- Model weights & checkpoints ----
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.pb
+*.tflite
+*.safetensors
+checkpoints/
+weights/
+runs/
+outputs/
+logs/
+
+# ---- rembg model cache ----
+.u2net/
+
+# ---- Grad-CAM / generated figures ----
+*.png
+*.jpg
+*.jpeg
+*.gif
+figures/
+!docs/**/*.png
+!docs/**/*.jpg
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE / editors ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
